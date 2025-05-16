@@ -6,12 +6,12 @@ const skillCategories = [
   {
     title: "Frontend",
     icon: <Code className="h-6 w-6 text-primary" />,
-    skills: ["React", "Next.js", "TypeScript", "JavaScript", "HTML/CSS", "TailwindCSS"]
+    skills: ["React", "Next.js", "TypeScript", "JavaScript", "TailwindCSS"]
   },
   {
     title: "Backend",
     icon: <Settings className="h-6 w-6 text-primary" />,
-    skills: ["Node.js", "FastAPI", "SpringBoot", "Redis", "WebSockets", "Express"]
+    skills: ["Node.js", "FastAPI", "Redis"]
   },
   {
     title: "Databases",
@@ -21,12 +21,12 @@ const skillCategories = [
   {
     title: "Tools",
     icon: <Briefcase className="h-6 w-6 text-primary" />,
-    skills: ["Docker", "Git", "GitHub", "Slack", "Power BI", "Tableau"]
+    skills: ["Docker", "Git", "GitHub", "Slack", "Power BI"]
   },
   {
     title: "Others",
     icon: <FileText className="h-6 w-6 text-primary" />,
-    skills: ["Cybersecurity", "Microservices", "SEO", "Pine Script", "Data Analysis", "API Development"]
+    skills: ["Cybersecurity", "Microservices", "SEO", "Pine Script", "Data Analysis"]
   }
 ];
 

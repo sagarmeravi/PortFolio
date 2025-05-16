@@ -16,7 +16,7 @@ const projects = [
   {
     title: "Online Game Store",
     description: "A CRUD-based e-commerce platform for digital games, allowing users to browse, purchase, and manage their game library.",
-    techStack: ["React", "Node.js", "MongoDB", "Express"],
+    techStack: ["PHP","MYSQL","HTML","CSS","Bootstrap"],
     link: "https://github.com/sagarmeravi/game-project",
     icon: <Code className="h-10 w-10 text-primary" />,
     category: "E-commerce Platform"
@@ -24,10 +24,18 @@ const projects = [
   {
     title: "Finance Management App",
     description: "Developed during a Python Developer Internship at InnoByte, this app helps users track expenses and manage budgets.",
-    techStack: ["Python", "FastAPI", "PostgreSQL", "React"],
+    techStack: ["Python"],
     link: "https://github.com/sagarmeravi/Personal-Finance-Management-Application",
     icon: <FileText className="h-10 w-10 text-primary" />,
     category: "Financial Tool"
+  },
+  {
+    title: "Philoshopy Quote Gen",
+    description: "A Daily Quest To Find Knowlege",
+    techStack: ["React","TailwindCSS","Typescript"],
+    link: "https://phillosophy-quote-gen.vercel.app/",
+    icon: <Code className="h-10 w-10 text-primary" />,
+    category: "Front End Application"
   }
 ];
 
